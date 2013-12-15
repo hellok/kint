@@ -1,0 +1,18 @@
+Error opening './../lib/libintck.so': ./../lib/libintck.so: cannot open shared object file: No such file or directory
+  -load request ignored.
+opt: Unknown command line argument '-simplify-libcalls'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-simplifycfg'?
+opt: Unknown command line argument '-overflow-idiom'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-loop-idiom'?
+opt: Unknown command line argument '-int-rewrite'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-internalize'?
+opt: Unknown command line argument '-overflow-simplify'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-loop-simplify'?
+opt: Unknown command line argument '-int-libcalls'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-intervals'?
+opt: Unknown command line argument '-overflow-simplify'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-loop-simplify'?
+opt: Unknown command line argument '-load-rewrite'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-loop-rotate'?
+opt: Unknown command line argument '-int-sat'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-no-aa'?

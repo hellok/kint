@@ -1,0 +1,37 @@
+boolector.o: makefile boolector.c boolector.h btorexp.h btorstack.h btormem.h \
+ btoraigvec.h btoraig.h btorsat.h btorhash.h btorqueue.h btorexit.h \
+ btorutil.h
+boolectormain.o: makefile boolectormain.c btormain.h
+btoraig.o: makefile btoraig.c btoraig.h btorstack.h btormem.h btorsat.h btorhash.h \
+ btorutil.h btorexit.h
+btoraigvec.o: makefile btoraigvec.c btoraigvec.h btormem.h btoraig.h btorstack.h \
+ btorsat.h btorhash.h btorutil.h
+btorbtor.o: makefile btorbtor.c btorbtor.h btorparse.h btorexp.h boolector.h \
+ btorstack.h btormem.h btoraigvec.h btoraig.h btorsat.h btorhash.h \
+ btorqueue.h btorlogic.h btorconst.h btorutil.h
+btorconst.o: makefile btorconst.c btorconst.h btormem.h btorutil.h btorstack.h
+btorexp.o: makefile btorexp.c btorexp.h boolector.h btorstack.h btormem.h \
+ btoraigvec.h btoraig.h btorsat.h btorhash.h btorqueue.h btorutil.h \
+ btorconst.h btorconfig.h btorexit.h btorrewrite.h ../lingeling/lglib.h
+btorhash.o: makefile btorhash.c btorhash.h btormem.h
+btormain.o: makefile btormain.c btormain.h btormem.h btorconst.h btorexit.h \
+ btorutil.h btorexp.h boolector.h btorstack.h btoraigvec.h btoraig.h \
+ btorsat.h btorhash.h btorqueue.h btorparse.h btorlogic.h btorbtor.h \
+ btorsmt.h btorsmt2.h btorconfig.h
+btormem.o: makefile btormem.c btormem.h btorexit.h
+btorrewrite.o: makefile btorrewrite.c btorrewrite.h btorexp.h boolector.h \
+ btorstack.h btormem.h btoraigvec.h btoraig.h btorsat.h btorhash.h \
+ btorqueue.h btorconst.h btorutil.h
+btorsat.o: makefile btorsat.c ../lingeling/lglib.h btorsat.h btormem.h btorexit.h \
+ btorutil.h
+btorsmt.o: makefile btorsmt.c btorsmt.h btorexp.h boolector.h btorstack.h \
+ btormem.h btoraigvec.h btoraig.h btorsat.h btorhash.h btorqueue.h \
+ btorparse.h btorlogic.h btorconst.h btorutil.h
+btorsmt2.o: makefile btorsmt2.c btorsmt2.h btorexp.h boolector.h btorstack.h \
+ btormem.h btoraigvec.h btoraig.h btorsat.h btorhash.h btorqueue.h \
+ btorparse.h btorlogic.h btorutil.h btorconst.h
+btorutil.o: makefile btorutil.c btorutil.h
+deltabtor.o: makefile deltabtor.c
+synthebtor.o: makefile synthebtor.c btorbtor.h btorparse.h btorexp.h boolector.h \
+ btorstack.h btormem.h btoraigvec.h btoraig.h btorsat.h btorhash.h \
+ btorqueue.h btorlogic.h

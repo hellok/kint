@@ -1,0 +1,6 @@
+/home/hellok/kint/build/bin
+---
+bug: umul.i32
+status: sat
+stack: 
+ - /home/hellok/kint/demo/1.c:20:0

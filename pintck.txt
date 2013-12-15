@@ -1,0 +1,2 @@
+opt: Unknown command line argument '-simplify-libcalls'.  Try: '/usr/local/bin/opt -help'
+opt: Did you mean '-int-libcalls'?
